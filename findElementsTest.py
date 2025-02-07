@@ -15,3 +15,4 @@ for country in countries:
         break
 #print(driver.find_element(By.ID, 'autosuggest').text)
 assert (driver.find_element(By.ID, 'autosuggest').get_attribute("value")) == "India"
+ # Git pull test 3
